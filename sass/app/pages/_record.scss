@@ -1,0 +1,38 @@
+/* -------------------------------- 
+
+  Record
+
+-------------------------------- */
+
+.GameOver__record{
+    h1{
+        font-size                            : rem(34px);
+        text-align                           : center;
+        color                                : $primary-color;
+
+        @include respond-to('large'){
+            font-size                        : rem(44px); 
+        } 
+    }
+    
+    .game__counter{
+        h1{
+            font-size                        : rem(140px);
+            text-align                       : center;
+            color                            : $primary-color;
+            
+            @include respond-to('large'){
+                font-size                    : rem(150px);
+            }
+            
+            &:before{
+                margin-top                   : rem(-30px);
+                margin-bottom                : rem(-20px);
+            }
+            
+            &:after{
+                margin-top                   : rem(-100px) ;
+            }
+        }        
+    }
+}

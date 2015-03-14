@@ -1,0 +1,135 @@
+/* -------------------------------- 
+
+  Home
+
+-------------------------------- */
+.Home{
+    background-color                       : $primary-color;
+    @include gradient($secondary-color, $tertiary-color);
+}
+
+.home{
+    @include flex();
+    @include flex-direction(column);
+    margin                                 : auto;
+    
+    background-color                       : $primary-color;
+    
+    &__title{        
+        &:after{
+            content                        : url(../img/hr.svg);
+            text-align                     : center;
+            display                        : block;
+            height                         : rem(12px);
+            margin-top                     : rem(-30px); 
+            margin-bottom                  : rem(40px); 
+            
+            @include respond-to('large'){
+                margin-bottom              : rem(35px);
+            }
+
+            @include respond-to('huge'){
+                margin-bottom              : rem(47px);
+            }            
+        }
+    
+        @include respond-to('large'){
+            font-size                      : rem(83px);
+        }
+
+        @include respond-to('huge'){
+            font-size                      : rem(109px);
+        }
+        
+        @include respond-to('small'){
+            font-size: rem(50px);
+            text-align: center;
+        }
+        
+        @include respond-to('small-landscape'){
+            font-size: rem(60px);
+        }
+    }
+    
+    
+    &__content{
+        margin                            : auto;
+        margin-top                        : rem(30px);
+        
+        @include respond-to('small'){
+            display: none;
+        }
+        
+        @include respond-to('small-landscape'){
+            display: none;
+        }
+        
+        @include respond-to('medium-portrait'){
+            display: inline;
+        }
+        
+        @include respond-to('large'){
+            font-size                     : rem(23.15px);
+            line-height                   : rem(33.15px);
+            margin-top                    : rem(45px);
+        }
+
+        @include respond-to('huge'){
+            font-size                     : rem(27.82px);
+            line-height                   : rem(37.82px);
+            margin-top                    : rem(47px);
+        }
+    }
+    
+    &__mobile{
+        margin-top: rem(30px);
+        padding: rem(5px);
+        
+        @include respond-to('medium-portrait'){
+            display: none;
+        }
+    }
+
+    @include respond-to('small'){
+        &__button{
+            display: none;
+        }
+    }
+
+    @include respond-to('small-landscape'){
+        &__button{
+            display: none;
+        }
+    }
+
+    @include respond-to('medium-portrait'){
+        &__button{
+            @include flex();
+        }
+    }    
+    
+    @include respond-to('huge'){
+        &__button{
+            @include flex();
+            font-size                    : rem(30px);
+            
+            a{
+                margin: auto;
+            }
+        }
+    }
+    
+    &__button2:hover, 
+    &__button2:focus{
+        background                        : url('../img/rocket.svg') no-repeat center center;
+        background-color                  : $secondary-color; 
+        background-size                   : 60%;
+        transition                        : transform 0.5s ease;
+    }
+    
+    @include respond-to('large'){
+        &__content{
+            max-width                     : rem(800px);   
+        }
+    }
+}

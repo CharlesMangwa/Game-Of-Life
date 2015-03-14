@@ -1,0 +1,1564 @@
+/* -------------------------------- 
+
+   Imports
+
+-------------------------------- */
+/* -------------------------------- 
+    
+  CSS Reset
+  Eric Meyer http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+  + personal modifications
+
+-------------------------------- */
+/* line 10, ../sass/vendors/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 29, ../sass/vendors/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 32, ../sass/vendors/_reset.scss */
+body {
+  line-height: 1;
+  color: black;
+}
+
+/* line 36, ../sass/vendors/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 40, ../sass/vendors/_reset.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 44, ../sass/vendors/_reset.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 48, ../sass/vendors/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+/* line 52, ../sass/vendors/_reset.scss */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* line 56, ../sass/vendors/_reset.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 61, ../sass/vendors/_reset.scss */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+/* line 65, ../sass/vendors/_reset.scss */
+.is-hidden {
+  display: none !important;
+}
+
+    /* --
+
+      Settings
+
+    -- */
+/* -------------------------------- 
+
+  Settings
+
+-------------------------------- */
+/* --
+
+  Colors
+
+-- */
+/* --
+
+  Fonts
+
+-- */
+/* --
+
+  Breakpoints
+
+-- */
+/* --
+
+  Typo
+
+-- */
+/* -------------------------------- 
+
+  Settings
+
+-------------------------------- */
+/* --
+
+  Colors
+
+-- */
+/* --
+
+  Fonts
+
+-- */
+/* --
+
+  Breakpoints
+
+-- */
+    /* --
+
+      Vendors
+
+    -- */
+/* -------------------------------- 
+
+  Core
+
+-------------------------------- */
+/* -------------------------------- 
+/* -------------------------------- 
+
+0. CUSTOM
+1. Rem & Em
+2. Cleafix
+3. Respond-to-retina
+4. Retina background
+5. Box-sizing
+6. Respond to
+7. Strip Units
+8. Transform
+9. Establish-baseline
+10. Transition
+11. Typo Debug
+12. Placeholder
+13. Square
+
+
+-------------------------------- */
+/* -------------------------------- 
+
+0. CUSTOM
+
+-------------------------------- */
+/* -------------------------------- 
+
+1. Rem & Em
+
+-------------------------------- */
+/* -------------------------------- 
+
+2. Clearfix
+
+-------------------------------- */
+/* -------------------------------- 
+
+3. Respond-to-retina
+
+-------------------------------- */
+/* -------------------------------- 
+
+4. Retina background
+
+-------------------------------- */
+/* -------------------------------- 
+
+5. Box-sing
+
+-------------------------------- */
+/* -------------------------------- 
+
+6. Respond to
+
+-------------------------------- */
+/* -------------------------------- 
+
+7. Strip Units
+
+-------------------------------- */
+/* -------------------------------- 
+
+8. Transform
+
+-------------------------------- */
+/* -------------------------------- 
+
+9. Establish-baseline
+
+-------------------------------- */
+/* -------------------------------- 
+
+10. Transition
+
+-------------------------------- */
+/* -------------------------------- 
+
+11. Typo Debug
+
+-------------------------------- */
+/* -------------------------------- 
+
+12. Placeholder
+
+-------------------------------- */
+/* -------------------------------- 
+
+13. Square
+
+-------------------------------- */
+/* -------------------------------- 
+
+14. Sqrt
+
+-------------------------------- */
+/* -------------------------------- 
+
+15. SVG Shape
+
+-------------------------------- */
+/* -------------------------------- 
+
+  Grid   
+
+-------------------------------- */
+    /* --
+
+      Base
+
+    -- */
+/* -------------------------------- 
+
+  Components
+
+-------------------------------- */
+/* line 347, ../sass/vendors/_mixins.scss */
+html {
+  font-size: 162.5%;
+  line-height: 1.07692rem;
+}
+
+/* line 9, ../sass/app/base/_components.scss */
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Brandon Grotesque Regular';
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 16, ../sass/app/base/_components.scss */
+h1 {
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 2.98269rem;
+  text-transform: uppercase;
+  color: #271f39;
+}
+
+/* line 23, ../sass/app/base/_components.scss */
+p {
+  font-size: 0.86885rem;
+  line-height: 1.25346rem;
+  color: white;
+  text-align: center;
+}
+
+/* line 30, ../sass/app/base/_components.scss */
+b {
+  color: #f4c700;
+}
+
+/* line 35, ../sass/app/base/_components.scss */
+ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: auto;
+}
+/* line 42, ../sass/app/base/_components.scss */
+ul li a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 5.42308rem;
+  height: 5.42308rem;
+  color: white;
+}
+/* line 53, ../sass/app/base/_components.scss */
+ul li a:hover, ul li a:focus {
+  color: #3e305a;
+}
+
+/* HOME */
+/* line 68, ../sass/app/base/_components.scss */
+.home__button {
+  width: 5.42308rem;
+  height: 5.42308rem;
+  margin-top: 2.61538rem;
+  margin-left: 0.96154rem;
+  margin-right: 0.96154rem;
+  border: none;
+  border-radius: 50%;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 0.89038rem;
+  color: white;
+  background-color: #3e305a;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+/* line 89, ../sass/app/base/_components.scss */
+.home__button:hover, .home__button:focus {
+  background-color: white;
+  color: #3e305a;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+/* line 98, ../sass/app/base/_components.scss */
+.home__button:active {
+  transform: scale(1);
+}
+@media only screen and (min-width: 1300px) {
+  /* line 68, ../sass/app/base/_components.scss */
+  .home__button {
+    margin-top: 2.19231rem;
+    font-size: 1.07rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 68, ../sass/app/base/_components.scss */
+  .home__button {
+    width: 6.34615rem;
+    height: 6.34615rem;
+    margin-top: 2.87654rem;
+    font-size: 1.08308rem;
+  }
+}
+
+/* STANDARD */
+/* line 124, ../sass/app/base/_components.scss */
+.game__button {
+  width: 2.26192rem;
+  height: 2.26192rem;
+  border: none;
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+/* line 135, ../sass/app/base/_components.scss */
+.game__button:hover, .game__button:focus {
+  background-color: #7aecca;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+/* line 143, ../sass/app/base/_components.scss */
+.game__button:active {
+  background-color: #7aecca;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+    /* --
+
+      Pages
+
+    -- */
+/* -------------------------------- 
+
+  Home
+
+-------------------------------- */
+/* line 6, ../sass/app/pages/_home.scss */
+.Home {
+  background-color: #614b8c;
+  border: 0.48077rem solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left, #f4c700 0%, #ec6085 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #f4c700 0%, #ec6085 100%);
+  border-image: linear-gradient(to bottom right, #f4c700 0%, #ec6085 100%);
+  border-image-slice: 1;
+}
+
+/* line 11, ../sass/app/pages/_home.scss */
+.home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  background-color: #614b8c;
+}
+/* line 19, ../sass/app/pages/_home.scss */
+.home__title:after {
+  content: url(../img/hr.svg);
+  text-align: center;
+  display: block;
+  height: 0.46154rem;
+  margin-top: -1.15385rem;
+  margin-bottom: 1.53846rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 19, ../sass/app/pages/_home.scss */
+  .home__title:after {
+    margin-bottom: 1.34615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 19, ../sass/app/pages/_home.scss */
+  .home__title:after {
+    margin-bottom: 1.80769rem;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 18, ../sass/app/pages/_home.scss */
+  .home__title {
+    font-size: 3.19231rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 18, ../sass/app/pages/_home.scss */
+  .home__title {
+    font-size: 4.19231rem;
+  }
+}
+@media only screen and (min-width: 320px) {
+  /* line 18, ../sass/app/pages/_home.scss */
+  .home__title {
+    font-size: 1.92308rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 18, ../sass/app/pages/_home.scss */
+  .home__title {
+    font-size: 2.30769rem;
+  }
+}
+/* line 55, ../sass/app/pages/_home.scss */
+.home__content {
+  margin: auto;
+  margin-top: 1.15385rem;
+}
+@media only screen and (min-width: 320px) {
+  /* line 55, ../sass/app/pages/_home.scss */
+  .home__content {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 55, ../sass/app/pages/_home.scss */
+  .home__content {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 55, ../sass/app/pages/_home.scss */
+  .home__content {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 55, ../sass/app/pages/_home.scss */
+  .home__content {
+    font-size: 0.89038rem;
+    line-height: 1.275rem;
+    margin-top: 1.73077rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 55, ../sass/app/pages/_home.scss */
+  .home__content {
+    font-size: 1.07rem;
+    line-height: 1.45462rem;
+    margin-top: 1.80769rem;
+  }
+}
+/* line 84, ../sass/app/pages/_home.scss */
+.home__mobile {
+  margin-top: 1.15385rem;
+  padding: 0.19231rem;
+}
+@media only screen and (min-width: 768px) {
+  /* line 84, ../sass/app/pages/_home.scss */
+  .home__mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) {
+  /* line 94, ../sass/app/pages/_home.scss */
+  .home__button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 100, ../sass/app/pages/_home.scss */
+  .home__button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 106, ../sass/app/pages/_home.scss */
+  .home__button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 112, ../sass/app/pages/_home.scss */
+  .home__button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.15385rem;
+  }
+  /* line 116, ../sass/app/pages/_home.scss */
+  .home__button a {
+    margin: auto;
+  }
+}
+/* line 122, ../sass/app/pages/_home.scss */
+.home__button2:hover, .home__button2:focus {
+  background: url("../img/rocket.svg") no-repeat center center;
+  background-color: #f4c700;
+  background-size: 60%;
+  transition: transform 0.5s ease;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 131, ../sass/app/pages/_home.scss */
+  .home__content {
+    max-width: 30.76923rem;
+  }
+}
+
+/* -------------------------------- 
+
+  Standard
+
+-------------------------------- */
+/* line 6, ../sass/app/pages/_standard.scss */
+.Standard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border: 0.48077rem solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left, #4ecca6 0%, #4059c1 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #4ecca6 0%, #4059c1 100%);
+  border-image: linear-gradient(to bottom right, #4ecca6 0%, #4059c1 100%);
+  border-image-slice: 1;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+/* line 16, ../sass/app/pages/_standard.scss */
+.Standard__continue {
+  width: 10vh;
+  height: 10vh;
+  border: none;
+  background: url("../img/rocket.svg") no-repeat center center;
+  background-color: #f4c700;
+  background-size: 70%;
+  position: absolute;
+  right: 0;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: url(grayscale.svg);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+/* line 33, ../sass/app/pages/_standard.scss */
+.Standard__continue:hover, .Standard__continue:focus {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: url(grayscale.svg);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+/* line 40, ../sass/app/pages/_standard.scss */
+.Standard__continue:active {
+  transform: scale(0.95);
+}
+/* line 45, ../sass/app/pages/_standard.scss */
+.Standard__info {
+  width: 7vh;
+  height: 7vh;
+  background: url("../img/i.svg") no-repeat center center;
+  bottom: 0;
+}
+
+/* line 53, ../sass/app/pages/_standard.scss */
+canvas {
+  height: 50vh;
+  background: url("../img/canvas.png") no-repeat 0 0;
+  background-size: cover;
+}
+
+/* line 60, ../sass/app/pages/_standard.scss */
+.game {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 50vh;
+  height: 40vh;
+  margin: auto;
+}
+/* line 68, ../sass/app/pages/_standard.scss */
+.game__counter {
+  text-align: center;
+  padding: 0;
+  margin-top: -3.07692rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 68, ../sass/app/pages/_standard.scss */
+  .game__counter {
+    margin-top: -2.69231rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 68, ../sass/app/pages/_standard.scss */
+  .game__counter {
+    margin-bottom: 1.80769rem;
+  }
+}
+/* line 81, ../sass/app/pages/_standard.scss */
+.game__counter h1 {
+  font-size: 4.75846rem;
+  color: #614b8c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+/* line 87, ../sass/app/pages/_standard.scss */
+.game__counter h1:before {
+  content: url(../img/zigzag--green.svg);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: -0.76923rem;
+}
+/* line 96, ../sass/app/pages/_standard.scss */
+.game__counter p {
+  color: #9581bc;
+  margin-top: 3.07692rem;
+}
+/* line 100, ../sass/app/pages/_standard.scss */
+.game__counter p:after {
+  content: url(../img/zigzag--green.svg);
+  height: 0.46154rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 110, ../sass/app/pages/_standard.scss */
+.game__control {
+  margin-top: 1.92308rem;
+  text-align: center;
+}
+/* line 115, ../sass/app/pages/_standard.scss */
+.game__button {
+  margin-left: 0.09615rem;
+  margin-right: 0.09615rem;
+  cursor: pointer;
+}
+/* line 121, ../sass/app/pages/_standard.scss */
+.game__stop {
+  background: url("../img/stop.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 126, ../sass/app/pages/_standard.scss */
+.game__replay {
+  background: url("../img/refresh.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 131, ../sass/app/pages/_standard.scss */
+.game__previous {
+  background: url("../img/prev.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 136, ../sass/app/pages/_standard.scss */
+.game__play {
+  background: url("../img/pause.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 141, ../sass/app/pages/_standard.scss */
+.game__next {
+  background: url("../img/next.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 146, ../sass/app/pages/_standard.scss */
+.game__go {
+  margin-top: 10.76923rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 146, ../sass/app/pages/_standard.scss */
+  .game__go {
+    margin-top: 13.84615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 146, ../sass/app/pages/_standard.scss */
+  .game__go {
+    margin-top: 15.38462rem;
+  }
+}
+
+/* -------------------------------- 
+
+  Game over
+
+-------------------------------- */
+/* line 7, ../sass/app/pages/_gameover.scss */
+.GameOver {
+  position: relative;
+}
+/* line 10, ../sass/app/pages/_gameover.scss */
+.GameOver canvas {
+  height: 100vh;
+  background: url("../img/canvas.png") no-repeat 0 0;
+  background-size: cover;
+}
+/* line 17, ../sass/app/pages/_gameover.scss */
+.GameOver__window {
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  top: 25vh;
+  left: 42.5vh;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  /* line 17, ../sass/app/pages/_gameover.scss */
+  .GameOver__window {
+    top: 27vh;
+    left: 15vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 17, ../sass/app/pages/_gameover.scss */
+  .GameOver__window {
+    top: 25vh;
+    left: 17.5vw;
+    width: 60vw;
+  }
+}
+/* line 36, ../sass/app/pages/_gameover.scss */
+.GameOver__window h1 {
+  font-size: 1.92308rem;
+  text-align: center;
+  color: #614b8c;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 36, ../sass/app/pages/_gameover.scss */
+  .GameOver__window h1 {
+    font-size: 2.44423rem;
+  }
+}
+/* line 47, ../sass/app/pages/_gameover.scss */
+.GameOver__window .game__counter h1 {
+  /* Augmenter la valeur du margin-top */
+}
+/* line 48, ../sass/app/pages/_gameover.scss */
+.GameOver__window .game__counter h1:after {
+  content: url(../img/zigzag--green.svg);
+  text-align: center;
+  display: block;
+  margin-top: -1.53846rem;
+  margin-bottom: 1.53846rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 48, ../sass/app/pages/_gameover.scss */
+  .GameOver__window .game__counter h1:after {
+    margin-bottom: 1.34615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 48, ../sass/app/pages/_gameover.scss */
+  .GameOver__window .game__counter h1:after {
+    margin-bottom: 1.80769rem;
+  }
+}
+
+/* line 71, ../sass/app/pages/_gameover.scss */
+.game__counter h1 {
+  margin-top: 1.92308rem;
+  margin-bottom: -2.88462rem;
+  font-size: 3.65385rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 71, ../sass/app/pages/_gameover.scss */
+  .game__counter h1 {
+    margin-top: 1.15385rem;
+  }
+}
+/* line 80, ../sass/app/pages/_gameover.scss */
+.game__counter h1:before {
+  margin-bottom: 0rem;
+}
+/* line 85, ../sass/app/pages/_gameover.scss */
+.game__start {
+  background: url("../img/play.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 90, ../sass/app/pages/_gameover.scss */
+.game__twitter {
+  background: url("../img/twitter.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 94, ../sass/app/pages/_gameover.scss */
+.game__facebook {
+  background: url("../img/facebook.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+/* line 98, ../sass/app/pages/_gameover.scss */
+.game__instagram {
+  background: url("../img/instagram.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+
+/* -------------------------------- 
+
+  Record
+
+-------------------------------- */
+/* line 8, ../sass/app/pages/_record.scss */
+.GameOver__record h1 {
+  font-size: 1.30769rem;
+  text-align: center;
+  color: #614b8c;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 8, ../sass/app/pages/_record.scss */
+  .GameOver__record h1 {
+    font-size: 1.69231rem;
+  }
+}
+/* line 19, ../sass/app/pages/_record.scss */
+.GameOver__record .game__counter h1 {
+  font-size: 5.38462rem;
+  text-align: center;
+  color: #614b8c;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 19, ../sass/app/pages/_record.scss */
+  .GameOver__record .game__counter h1 {
+    font-size: 5.76923rem;
+  }
+}
+/* line 28, ../sass/app/pages/_record.scss */
+.GameOver__record .game__counter h1:before {
+  margin-top: -1.15385rem;
+  margin-bottom: -0.76923rem;
+}
+/* line 33, ../sass/app/pages/_record.scss */
+.GameOver__record .game__counter h1:after {
+  margin-top: -3.84615rem;
+}
+
+/* -------------------------------- 
+
+  Start 1 - Standar mode
+
+-------------------------------- */
+/* line 7, ../sass/app/pages/_start1.scss */
+.Start1A {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+}
+/* line 11, ../sass/app/pages/_start1.scss */
+.Start1A .home {
+  margin: auto;
+  background: none;
+  -webkit-align-items: center;
+}
+/* line 16, ../sass/app/pages/_start1.scss */
+.Start1A .home h1 {
+  width: 17.11538rem;
+  font-size: 1.65385rem;
+  line-height: 2.03846rem;
+  text-align: center;
+  color: #4a396b;
+}
+/* line 25, ../sass/app/pages/_start1.scss */
+.Start1A .home h1:after {
+  content: url("../img/zigzag-green.svg");
+  margin-top: 0.38462rem;
+  margin-bottom: -1.15385rem;
+}
+/* line 33, ../sass/app/pages/_start1.scss */
+.Start1A .home__button {
+  background-color: transparent;
+}
+/* line 35, ../sass/app/pages/_start1.scss */
+.Start1A .home__button a {
+  border: 2px solid #e6e6e6;
+  border-radius: 50%;
+  background-color: white;
+  color: #4a396b;
+  font-size: 21px;
+  transition: all 0.5s ease;
+}
+/* line 44, ../sass/app/pages/_start1.scss */
+.Start1A .home__button a:hover,
+.Start1A .home__button a:focus {
+  border: 2px solid transparent;
+  background-color: #4ecca6;
+  color: white;
+}
+
+/* line 54, ../sass/app/pages/_start1.scss */
+.Start1B {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+/* line 58, ../sass/app/pages/_start1.scss */
+.Start1B canvas {
+  background: none;
+}
+/* line 62, ../sass/app/pages/_start1.scss */
+.Start1B .home {
+  position: absolute;
+  height: 60vh;
+  top: 23vh;
+  left: 27vw;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  /* line 62, ../sass/app/pages/_start1.scss */
+  .Start1B .home {
+    left: 20vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 62, ../sass/app/pages/_start1.scss */
+  .Start1B .home {
+    top: 18vh;
+    left: 35vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 62, ../sass/app/pages/_start1.scss */
+  .Start1B .home {
+    top: 18vh;
+    left: 35vw;
+  }
+  /* line 80, ../sass/app/pages/_start1.scss */
+  .Start1B .home h1 {
+    font-size: 1.92308rem;
+  }
+}
+
+/* -------------------------------- 
+
+  Rules pages
+
+-------------------------------- */
+/* line 7, ../sass/app/pages/_rules.scss */
+.Rules {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+  position: relative;
+}
+/* line 12, ../sass/app/pages/_rules.scss */
+.Rules__window {
+  width: 80vw;
+  min-height: 75vh;
+  margin: auto;
+  padding: 0.76923rem;
+  position: absolute;
+  text-align: center;
+  top: 15vh;
+  left: 9vw;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  /* line 12, ../sass/app/pages/_rules.scss */
+  .Rules__window {
+    min-height: 50vh;
+    top: 20vh;
+    left: 9vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 12, ../sass/app/pages/_rules.scss */
+  .Rules__window {
+    width: 50vw;
+    min-height: 75vh;
+    top: 7vh;
+    left: 24vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 12, ../sass/app/pages/_rules.scss */
+  .Rules__window {
+    top: 15vh;
+  }
+}
+/* line 43, ../sass/app/pages/_rules.scss */
+.Rules__window span:first-of-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin-right: 1.15385rem;
+}
+/* line 49, ../sass/app/pages/_rules.scss */
+.Rules__window span:nth-child(4),
+.Rules__window span:nth-child(5) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.15385rem auto 1.15385rem auto;
+  font-size: 0.76923rem;
+  width: 75%;
+  line-height: 0.84615rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 49, ../sass/app/pages/_rules.scss */
+  .Rules__window span:nth-child(4),
+  .Rules__window span:nth-child(5) {
+    font-size: 0.61538rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 49, ../sass/app/pages/_rules.scss */
+  .Rules__window span:nth-child(4),
+  .Rules__window span:nth-child(5) {
+    width: 50%;
+    font-size: 0.80769rem;
+  }
+}
+/* line 54, ../sass/app/pages/_rules.scss */
+.Rules__window h1 {
+  font-size: 1.73077rem;
+  margin-bottom: 1.15385rem;
+  color: #7f67ad;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 54, ../sass/app/pages/_rules.scss */
+  .Rules__window h1 {
+    font-size: 1.34615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 54, ../sass/app/pages/_rules.scss */
+  .Rules__window h1 {
+    font-size: 1.73077rem;
+  }
+}
+/* line 68, ../sass/app/pages/_rules.scss */
+.Rules__window p {
+  padding-left: 3.07692rem;
+  padding-right: 3.07692rem;
+  font-size: 0.76923rem;
+  line-height: 0.92308rem;
+  color: black;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 68, ../sass/app/pages/_rules.scss */
+  .Rules__window p {
+    padding-left: 6.15385rem;
+    padding-right: 6.15385rem;
+    font-size: 0.61538rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 68, ../sass/app/pages/_rules.scss */
+  .Rules__window p {
+    padding-left: 6.15385rem;
+    padding-right: 6.15385rem;
+    font-size: 0.84615rem;
+  }
+}
+/* line 89, ../sass/app/pages/_rules.scss */
+.Rules__window p:nth-child(3) {
+  margin-top: 1.15385rem;
+  color: #4ecca6;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 89, ../sass/app/pages/_rules.scss */
+  .Rules__window p:nth-child(3) {
+    font-size: 0.61538rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 89, ../sass/app/pages/_rules.scss */
+  .Rules__window p:nth-child(3) {
+    font-size: 0.76923rem;
+  }
+}
+/* line 102, ../sass/app/pages/_rules.scss */
+.Rules__window p:nth-child(5) {
+  padding-left: 6.53846rem;
+  padding-right: 6.53846rem;
+}
+/* line 106, ../sass/app/pages/_rules.scss */
+.Rules__window p:nth-child(5):after {
+  content: url("../img/zigzag-green.svg");
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 114, ../sass/app/pages/_rules.scss */
+.Rules__window a {
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 0.61538rem;
+  transition: all 0.3s ease;
+}
+@media only screen and (min-width: 1024px) {
+  /* line 114, ../sass/app/pages/_rules.scss */
+  .Rules__window a {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 114, ../sass/app/pages/_rules.scss */
+  .Rules__window a {
+    font-size: 0.5rem;
+  }
+}
+/* line 127, ../sass/app/pages/_rules.scss */
+.Rules__window a:hover {
+  color: #4ecca6;
+  transition: all 0.3s ease;
+}
+/* line 132, ../sass/app/pages/_rules.scss */
+.Rules__window a:before {
+  vertical-align: middle;
+  content: '';
+  background: url("../img/Jedi.svg") center center;
+  background-size: cover;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 2.88462rem;
+  height: 2.88462rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 132, ../sass/app/pages/_rules.scss */
+  .Rules__window a:before {
+    width: 3.84615rem;
+    height: 3.84615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 132, ../sass/app/pages/_rules.scss */
+  .Rules__window a:before {
+    width: 5.76923rem;
+    height: 5.76923rem;
+  }
+}
+/* line 136, ../sass/app/pages/_rules.scss */
+.Rules__window a:after {
+  vertical-align: middle;
+  content: '';
+  background: url("../img/Dark-Vador.svg") center center;
+  background-size: cover;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 2.88462rem;
+  height: 2.88462rem;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 136, ../sass/app/pages/_rules.scss */
+  .Rules__window a:after {
+    width: 3.84615rem;
+    height: 3.84615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 136, ../sass/app/pages/_rules.scss */
+  .Rules__window a:after {
+    width: 5.76923rem;
+    height: 5.76923rem;
+  }
+}
+/* line 141, ../sass/app/pages/_rules.scss */
+.Rules__window button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 0.76923rem;
+  width: 3.84615rem;
+  height: 3.84615rem;
+  background: url("../img/about-us.png") no-repeat center center;
+  background-size: 85%;
+  border: 2px solid #4ecca6;
+  border-radius: 50px;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 141, ../sass/app/pages/_rules.scss */
+  .Rules__window button {
+    display: none;
+  }
+}
+/* line 160, ../sass/app/pages/_rules.scss */
+.Rules__window:before {
+  content: '';
+  background-image: url("../img/button--green.svg");
+  background-size: cover;
+  display: block;
+  margin: -0.76923rem auto 1.15385rem auto;
+  width: 5.76923rem;
+  height: 3.84615rem;
+}
+@media only screen and (min-width: 768px) {
+  /* line 160, ../sass/app/pages/_rules.scss */
+  .Rules__window:before {
+    margin-top: -3.07692rem;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 160, ../sass/app/pages/_rules.scss */
+  .Rules__window:before {
+    content: '';
+    background: url("../img/button--green.svg") center center;
+    background-size: cover;
+    margin: auto auto 1.15385rem auto;
+    width: 3.84615rem;
+    height: 2.88462rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 160, ../sass/app/pages/_rules.scss */
+  .Rules__window:before {
+    width: 3.84615rem;
+    height: 3.84615rem;
+  }
+}
+/* line 189, ../sass/app/pages/_rules.scss */
+.Rules__About {
+  width: 10vh;
+  height: 10vh;
+  background: url("../img/about-us.svg") no-repeat center center;
+  background-size: cover;
+  bottom: 0;
+}
+
+/* -------------------------------- 
+
+  About us pages
+
+-------------------------------- */
+/* line 7, ../sass/app/pages/_aboutus.scss */
+.About a {
+  font-size: 0.76923rem;
+}
+/* line 9, ../sass/app/pages/_aboutus.scss */
+.About a:after, .About a:before {
+  content: none;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 7, ../sass/app/pages/_aboutus.scss */
+  .About a {
+    font-size: 0.69231rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 7, ../sass/app/pages/_aboutus.scss */
+  .About a {
+    font-size: 0.84615rem;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 25, ../sass/app/pages/_aboutus.scss */
+  .About p {
+    font-size: 0.69231rem;
+    padding-left: 1.92308rem;
+    padding-right: 1.92308rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 25, ../sass/app/pages/_aboutus.scss */
+  .About p {
+    font-size: 0.92308rem;
+    line-height: 1.07692rem;
+  }
+}
+
+/* line 39, ../sass/app/pages/_aboutus.scss */
+.AboutUs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 80vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 1.34615rem;
+}
+@media only screen and (min-width: 768px) {
+  /* line 39, ../sass/app/pages/_aboutus.scss */
+  .AboutUs {
+    width: 80vw;
+    height: 20vh;
+    margin-left: -0.76923rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 39, ../sass/app/pages/_aboutus.scss */
+  .AboutUs {
+    height: 33vh;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* line 39, ../sass/app/pages/_aboutus.scss */
+  .AboutUs {
+    width: 70vw;
+    height: 36vh;
+    margin-top: 1.92308rem;
+    margin-left: -5.76923rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 39, ../sass/app/pages/_aboutus.scss */
+  .AboutUs {
+    width: 65vw;
+    height: 34vh;
+    margin-top: 1.92308rem;
+    margin-left: -5.76923rem;
+  }
+}
+/* line 72, ../sass/app/pages/_aboutus.scss */
+.AboutUs .Leo,
+.AboutUs .Charles,
+.AboutUs .Robin,
+.AboutUs .Antoine {
+  width: 20vw;
+  height: 30vh;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 72, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo,
+  .AboutUs .Charles,
+  .AboutUs .Robin,
+  .AboutUs .Antoine {
+    width: 17.5vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 72, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo,
+  .AboutUs .Charles,
+  .AboutUs .Robin,
+  .AboutUs .Antoine {
+    width: 16.25vw;
+  }
+}
+/* line 87, ../sass/app/pages/_aboutus.scss */
+.AboutUs .Leo img,
+.AboutUs .Charles img,
+.AboutUs .Robin img,
+.AboutUs .Antoine img {
+  width: 15vw;
+  height: 15vw;
+}
+/* line 91, ../sass/app/pages/_aboutus.scss */
+.AboutUs .Leo img:hover,
+.AboutUs .Charles img:hover,
+.AboutUs .Robin img:hover,
+.AboutUs .Antoine img:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 87, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo img,
+  .AboutUs .Charles img,
+  .AboutUs .Robin img,
+  .AboutUs .Antoine img {
+    width: 12vw;
+    height: 12vw;
+  }
+}
+/* line 99, ../sass/app/pages/_aboutus.scss */
+.AboutUs .Leo a,
+.AboutUs .Charles a,
+.AboutUs .Robin a,
+.AboutUs .Antoine a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20vw;
+  margin-top: 0.57692rem;
+  font-size: 0.76923rem;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+/* line 108, ../sass/app/pages/_aboutus.scss */
+.AboutUs .Leo a:after, .AboutUs .Leo a:before,
+.AboutUs .Charles a:after,
+.AboutUs .Charles a:before,
+.AboutUs .Robin a:after,
+.AboutUs .Robin a:before,
+.AboutUs .Antoine a:after,
+.AboutUs .Antoine a:before {
+  content: none;
+}
+@media only screen and (min-width: 1300px) {
+  /* line 99, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo a,
+  .AboutUs .Charles a,
+  .AboutUs .Robin a,
+  .AboutUs .Antoine a {
+    margin-left: -0.76923rem;
+  }
+  /* line 115, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo a:after, .AboutUs .Leo a:before,
+  .AboutUs .Charles a:after,
+  .AboutUs .Charles a:before,
+  .AboutUs .Robin a:after,
+  .AboutUs .Robin a:before,
+  .AboutUs .Antoine a:after,
+  .AboutUs .Antoine a:before {
+    content: none;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  /* line 99, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo a,
+  .AboutUs .Charles a,
+  .AboutUs .Robin a,
+  .AboutUs .Antoine a {
+    font-size: 0.96154rem;
+    margin-left: -1.15385rem;
+  }
+  /* line 126, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo a:after, .AboutUs .Leo a:before,
+  .AboutUs .Charles a:after,
+  .AboutUs .Charles a:before,
+  .AboutUs .Robin a:after,
+  .AboutUs .Robin a:before,
+  .AboutUs .Antoine a:after,
+  .AboutUs .Antoine a:before {
+    content: none;
+  }
+}
+/* line 136, ../sass/app/pages/_aboutus.scss */
+.AboutUs .Leo i,
+.AboutUs .Charles i,
+.AboutUs .Robin i,
+.AboutUs .Antoine i {
+  font-size: 0.69231rem;
+  color: grey;
+}
+@media only screen and (min-width: 1800px) {
+  /* line 136, ../sass/app/pages/_aboutus.scss */
+  .AboutUs .Leo i,
+  .AboutUs .Charles i,
+  .AboutUs .Robin i,
+  .AboutUs .Antoine i {
+    font-size: 0.76923rem;
+    text-align: center;
+  }
+}
+
+/* line 148, ../sass/app/pages/_aboutus.scss */
+.About:after {
+  content: url("../img/zigzag-green.svg");
+}

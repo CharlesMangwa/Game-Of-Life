@@ -1,0 +1,1388 @@
+/* -------------------------------- 
+
+   Imports
+
+-------------------------------- */
+/* -------------------------------- 
+    
+  CSS Reset
+  Eric Meyer http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+  + personal modifications
+
+-------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: black;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+    /* --
+
+      Settings
+
+    -- */
+/* -------------------------------- 
+
+  Settings
+
+-------------------------------- */
+/* --
+
+  Colors
+
+-- */
+/* --
+
+  Fonts
+
+-- */
+/* --
+
+  Breakpoints
+
+-- */
+/* --
+
+  Typo
+
+-- */
+/* -------------------------------- 
+
+  Settings
+
+-------------------------------- */
+/* --
+
+  Colors
+
+-- */
+/* --
+
+  Fonts
+
+-- */
+/* --
+
+  Breakpoints
+
+-- */
+    /* --
+
+      Vendors
+
+    -- */
+/* -------------------------------- 
+
+  Core
+
+-------------------------------- */
+/* -------------------------------- 
+/* -------------------------------- 
+
+0. CUSTOM
+1. Rem & Em
+2. Cleafix
+3. Respond-to-retina
+4. Retina background
+5. Box-sizing
+6. Respond to
+7. Strip Units
+8. Transform
+9. Establish-baseline
+10. Transition
+11. Typo Debug
+12. Placeholder
+13. Square
+
+
+-------------------------------- */
+/* -------------------------------- 
+
+0. CUSTOM
+
+-------------------------------- */
+/* -------------------------------- 
+
+1. Rem & Em
+
+-------------------------------- */
+/* -------------------------------- 
+
+2. Clearfix
+
+-------------------------------- */
+/* -------------------------------- 
+
+3. Respond-to-retina
+
+-------------------------------- */
+/* -------------------------------- 
+
+4. Retina background
+
+-------------------------------- */
+/* -------------------------------- 
+
+5. Box-sing
+
+-------------------------------- */
+/* -------------------------------- 
+
+6. Respond to
+
+-------------------------------- */
+/* -------------------------------- 
+
+7. Strip Units
+
+-------------------------------- */
+/* -------------------------------- 
+
+8. Transform
+
+-------------------------------- */
+/* -------------------------------- 
+
+9. Establish-baseline
+
+-------------------------------- */
+/* -------------------------------- 
+
+10. Transition
+
+-------------------------------- */
+/* -------------------------------- 
+
+11. Typo Debug
+
+-------------------------------- */
+/* -------------------------------- 
+
+12. Placeholder
+
+-------------------------------- */
+/* -------------------------------- 
+
+13. Square
+
+-------------------------------- */
+/* -------------------------------- 
+
+14. Sqrt
+
+-------------------------------- */
+/* -------------------------------- 
+
+15. SVG Shape
+
+-------------------------------- */
+/* -------------------------------- 
+
+  Grid   
+
+-------------------------------- */
+    /* --
+
+      Base
+
+    -- */
+/* -------------------------------- 
+
+  Components
+
+-------------------------------- */
+html {
+  font-size: 162.5%;
+  line-height: 1.07692rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Brandon Grotesque Regular';
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 2.98269rem;
+  text-transform: uppercase;
+  color: #271f39;
+}
+
+p {
+  font-size: 0.86885rem;
+  line-height: 1.25346rem;
+  color: white;
+  text-align: center;
+}
+
+b {
+  color: #f4c700;
+}
+
+ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: auto;
+}
+ul li a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 5.42308rem;
+  height: 5.42308rem;
+  color: white;
+}
+ul li a:hover, ul li a:focus {
+  color: #3e305a;
+}
+
+/* HOME */
+.home__button {
+  width: 5.42308rem;
+  height: 5.42308rem;
+  margin-top: 2.61538rem;
+  margin-left: 0.96154rem;
+  margin-right: 0.96154rem;
+  border: none;
+  border-radius: 50%;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 0.89038rem;
+  color: white;
+  background-color: #3e305a;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.home__button:hover, .home__button:focus {
+  background-color: white;
+  color: #3e305a;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.home__button:active {
+  transform: scale(1);
+}
+@media only screen and (min-width: 1300px) {
+  .home__button {
+    margin-top: 2.19231rem;
+    font-size: 1.07rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .home__button {
+    width: 6.34615rem;
+    height: 6.34615rem;
+    margin-top: 2.87654rem;
+    font-size: 1.08308rem;
+  }
+}
+
+/* STANDARD */
+.game__button {
+  width: 2.26192rem;
+  height: 2.26192rem;
+  border: none;
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.game__button:hover, .game__button:focus {
+  background-color: #7aecca;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.game__button:active {
+  background-color: #7aecca;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+    /* --
+
+      Pages
+
+    -- */
+/* -------------------------------- 
+
+  Home
+
+-------------------------------- */
+.Home {
+  background-color: #614b8c;
+  border: 0.48077rem solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left, #f4c700 0%, #ec6085 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #f4c700 0%, #ec6085 100%);
+  border-image: linear-gradient(to bottom right, #f4c700 0%, #ec6085 100%);
+  border-image-slice: 1;
+}
+
+.home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  background-color: #614b8c;
+}
+.home__title:after {
+  content: url(../img/hr.svg);
+  text-align: center;
+  display: block;
+  height: 0.46154rem;
+  margin-top: -1.15385rem;
+  margin-bottom: 1.53846rem;
+}
+@media only screen and (min-width: 1300px) {
+  .home__title:after {
+    margin-bottom: 1.34615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .home__title:after {
+    margin-bottom: 1.80769rem;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .home__title {
+    font-size: 3.19231rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .home__title {
+    font-size: 4.19231rem;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .home__title {
+    font-size: 1.92308rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .home__title {
+    font-size: 2.30769rem;
+  }
+}
+.home__content {
+  margin: auto;
+  margin-top: 1.15385rem;
+}
+@media only screen and (min-width: 320px) {
+  .home__content {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .home__content {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home__content {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .home__content {
+    font-size: 0.89038rem;
+    line-height: 1.275rem;
+    margin-top: 1.73077rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .home__content {
+    font-size: 1.07rem;
+    line-height: 1.45462rem;
+    margin-top: 1.80769rem;
+  }
+}
+.home__mobile {
+  margin-top: 1.15385rem;
+  padding: 0.19231rem;
+}
+@media only screen and (min-width: 768px) {
+  .home__mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .home__button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .home__button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home__button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .home__button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.15385rem;
+  }
+  .home__button a {
+    margin: auto;
+  }
+}
+.home__button2:hover, .home__button2:focus {
+  background: url("../img/rocket.svg") no-repeat center center;
+  background-color: #f4c700;
+  background-size: 60%;
+  transition: transform 0.5s ease;
+}
+@media only screen and (min-width: 1300px) {
+  .home__content {
+    max-width: 30.76923rem;
+  }
+}
+
+/* -------------------------------- 
+
+  Standard
+
+-------------------------------- */
+.Standard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border: 0.48077rem solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left, #4ecca6 0%, #4059c1 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #4ecca6 0%, #4059c1 100%);
+  border-image: linear-gradient(to bottom right, #4ecca6 0%, #4059c1 100%);
+  border-image-slice: 1;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.Standard__continue {
+  width: 10vh;
+  height: 10vh;
+  border: none;
+  background: url("../img/rocket.svg") no-repeat center center;
+  background-color: #f4c700;
+  background-size: 70%;
+  position: absolute;
+  right: 0;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: url(grayscale.svg);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+.Standard__continue:hover, .Standard__continue:focus {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: url(grayscale.svg);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+.Standard__continue:active {
+  transform: scale(0.95);
+}
+.Standard__info {
+  width: 7vh;
+  height: 7vh;
+  background: url("../img/i.svg") no-repeat center center;
+  bottom: 0;
+}
+
+canvas {
+  height: 50vh;
+  background: url("../img/canvas.png") no-repeat 0 0;
+  background-size: cover;
+}
+
+.game {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 50vh;
+  height: 40vh;
+  margin: auto;
+}
+.game__counter {
+  text-align: center;
+  padding: 0;
+  margin-top: -3.07692rem;
+}
+@media only screen and (min-width: 1300px) {
+  .game__counter {
+    margin-top: -2.69231rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .game__counter {
+    margin-bottom: 1.80769rem;
+  }
+}
+.game__counter h1 {
+  font-size: 4.75846rem;
+  color: #614b8c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.game__counter h1:before {
+  content: url(../img/zigzag--green.svg);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: -0.76923rem;
+}
+.game__counter p {
+  color: #9581bc;
+  margin-top: 3.07692rem;
+}
+.game__counter p:after {
+  content: url(../img/zigzag--green.svg);
+  height: 0.46154rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.game__control {
+  margin-top: 1.92308rem;
+  text-align: center;
+}
+.game__button {
+  margin-left: 0.09615rem;
+  margin-right: 0.09615rem;
+  cursor: pointer;
+}
+.game__stop {
+  background: url("../img/stop.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__replay {
+  background: url("../img/refresh.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__previous {
+  background: url("../img/prev.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__play {
+  background: url("../img/pause.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__next {
+  background: url("../img/next.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__go {
+  margin-top: 10.76923rem;
+}
+@media only screen and (min-width: 1300px) {
+  .game__go {
+    margin-top: 13.84615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .game__go {
+    margin-top: 15.38462rem;
+  }
+}
+
+/* -------------------------------- 
+
+  Game over
+
+-------------------------------- */
+.GameOver {
+  position: relative;
+}
+.GameOver canvas {
+  height: 100vh;
+  background: url("../img/canvas.png") no-repeat 0 0;
+  background-size: cover;
+}
+.GameOver__window {
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  top: 25vh;
+  left: 42.5vh;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .GameOver__window {
+    top: 27vh;
+    left: 15vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .GameOver__window {
+    top: 25vh;
+    left: 17.5vw;
+    width: 60vw;
+  }
+}
+.GameOver__window h1 {
+  font-size: 1.92308rem;
+  text-align: center;
+  color: #614b8c;
+}
+@media only screen and (min-width: 1300px) {
+  .GameOver__window h1 {
+    font-size: 2.44423rem;
+  }
+}
+.GameOver__window .game__counter h1 {
+  /* Augmenter la valeur du margin-top */
+}
+.GameOver__window .game__counter h1:after {
+  content: url(../img/zigzag--green.svg);
+  text-align: center;
+  display: block;
+  margin-top: -1.53846rem;
+  margin-bottom: 1.53846rem;
+}
+@media only screen and (min-width: 1300px) {
+  .GameOver__window .game__counter h1:after {
+    margin-bottom: 1.34615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .GameOver__window .game__counter h1:after {
+    margin-bottom: 1.80769rem;
+  }
+}
+
+.game__counter h1 {
+  margin-top: 1.92308rem;
+  margin-bottom: -2.88462rem;
+  font-size: 3.65385rem;
+}
+@media only screen and (min-width: 1300px) {
+  .game__counter h1 {
+    margin-top: 1.15385rem;
+  }
+}
+.game__counter h1:before {
+  margin-bottom: 0rem;
+}
+.game__start {
+  background: url("../img/play.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__twitter {
+  background: url("../img/twitter.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__facebook {
+  background: url("../img/facebook.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+.game__instagram {
+  background: url("../img/instagram.svg") no-repeat 0 0;
+  background-size: 100%;
+}
+
+/* -------------------------------- 
+
+  Record
+
+-------------------------------- */
+.GameOver__record h1 {
+  font-size: 1.30769rem;
+  text-align: center;
+  color: #614b8c;
+}
+@media only screen and (min-width: 1300px) {
+  .GameOver__record h1 {
+    font-size: 1.69231rem;
+  }
+}
+.GameOver__record .game__counter h1 {
+  font-size: 5.38462rem;
+  text-align: center;
+  color: #614b8c;
+}
+@media only screen and (min-width: 1300px) {
+  .GameOver__record .game__counter h1 {
+    font-size: 5.76923rem;
+  }
+}
+.GameOver__record .game__counter h1:before {
+  margin-top: -1.15385rem;
+  margin-bottom: -0.76923rem;
+}
+.GameOver__record .game__counter h1:after {
+  margin-top: -3.84615rem;
+}
+
+/* -------------------------------- 
+
+  Start 1 - Standar mode
+
+-------------------------------- */
+.Start1A {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+}
+.Start1A .home {
+  margin: auto;
+  background: none;
+  -webkit-align-items: center;
+}
+.Start1A .home h1 {
+  width: 17.11538rem;
+  font-size: 1.65385rem;
+  line-height: 2.03846rem;
+  text-align: center;
+  color: #4a396b;
+}
+.Start1A .home h1:after {
+  content: url("../img/zigzag-green.svg");
+  margin-top: 0.38462rem;
+  margin-bottom: -1.15385rem;
+}
+.Start1A .home__button {
+  background-color: transparent;
+}
+.Start1A .home__button a {
+  border: 2px solid #e6e6e6;
+  border-radius: 50%;
+  background-color: white;
+  color: #4a396b;
+  font-size: 21px;
+  transition: all 0.5s ease;
+}
+.Start1A .home__button a:hover,
+.Start1A .home__button a:focus {
+  border: 2px solid transparent;
+  background-color: #4ecca6;
+  color: white;
+}
+
+.Start1B {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.Start1B canvas {
+  background: none;
+}
+.Start1B .home {
+  position: absolute;
+  height: 60vh;
+  top: 23vh;
+  left: 27vw;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .Start1B .home {
+    left: 20vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .Start1B .home {
+    top: 18vh;
+    left: 35vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Start1B .home {
+    top: 18vh;
+    left: 35vw;
+  }
+  .Start1B .home h1 {
+    font-size: 1.92308rem;
+  }
+}
+
+/* -------------------------------- 
+
+  Rules pages
+
+-------------------------------- */
+.Rules {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+  position: relative;
+}
+.Rules__window {
+  width: 80vw;
+  min-height: 75vh;
+  margin: auto;
+  padding: 0.76923rem;
+  position: absolute;
+  text-align: center;
+  top: 15vh;
+  left: 9vw;
+}
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .Rules__window {
+    min-height: 50vh;
+    top: 20vh;
+    left: 9vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window {
+    width: 50vw;
+    min-height: 75vh;
+    top: 7vh;
+    left: 24vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window {
+    top: 15vh;
+  }
+}
+.Rules__window span:first-of-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin-right: 1.15385rem;
+}
+.Rules__window span:nth-child(4),
+.Rules__window span:nth-child(5) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.15385rem auto 1.15385rem auto;
+  font-size: 0.76923rem;
+  width: 75%;
+  line-height: 0.84615rem;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window span:nth-child(4),
+  .Rules__window span:nth-child(5) {
+    font-size: 0.61538rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window span:nth-child(4),
+  .Rules__window span:nth-child(5) {
+    width: 50%;
+    font-size: 0.80769rem;
+  }
+}
+.Rules__window h1 {
+  font-size: 1.73077rem;
+  margin-bottom: 1.15385rem;
+  color: #7f67ad;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window h1 {
+    font-size: 1.34615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window h1 {
+    font-size: 1.73077rem;
+  }
+}
+.Rules__window p {
+  padding-left: 3.07692rem;
+  padding-right: 3.07692rem;
+  font-size: 0.76923rem;
+  line-height: 0.92308rem;
+  color: black;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window p {
+    padding-left: 6.15385rem;
+    padding-right: 6.15385rem;
+    font-size: 0.61538rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window p {
+    padding-left: 6.15385rem;
+    padding-right: 6.15385rem;
+    font-size: 0.84615rem;
+  }
+}
+.Rules__window p:nth-child(3) {
+  margin-top: 1.15385rem;
+  color: #4ecca6;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window p:nth-child(3) {
+    font-size: 0.61538rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window p:nth-child(3) {
+    font-size: 0.76923rem;
+  }
+}
+.Rules__window p:nth-child(5) {
+  padding-left: 6.53846rem;
+  padding-right: 6.53846rem;
+}
+.Rules__window p:nth-child(5):after {
+  content: url("../img/zigzag-green.svg");
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.Rules__window a {
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 0.61538rem;
+  transition: all 0.3s ease;
+}
+@media only screen and (min-width: 1024px) {
+  .Rules__window a {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Rules__window a {
+    font-size: 0.5rem;
+  }
+}
+.Rules__window a:hover {
+  color: #4ecca6;
+  transition: all 0.3s ease;
+}
+.Rules__window a:before {
+  vertical-align: middle;
+  content: '';
+  background: url("../img/Jedi.svg") center center;
+  background-size: cover;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 2.88462rem;
+  height: 2.88462rem;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window a:before {
+    width: 3.84615rem;
+    height: 3.84615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window a:before {
+    width: 5.76923rem;
+    height: 5.76923rem;
+  }
+}
+.Rules__window a:after {
+  vertical-align: middle;
+  content: '';
+  background: url("../img/Dark-Vador.svg") center center;
+  background-size: cover;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 2.88462rem;
+  height: 2.88462rem;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window a:after {
+    width: 3.84615rem;
+    height: 3.84615rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window a:after {
+    width: 5.76923rem;
+    height: 5.76923rem;
+  }
+}
+.Rules__window button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 0.76923rem;
+  width: 3.84615rem;
+  height: 3.84615rem;
+  background: url("../img/about-us.png") no-repeat center center;
+  background-size: 85%;
+  border: 2px solid #4ecca6;
+  border-radius: 50px;
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window button {
+    display: none;
+  }
+}
+.Rules__window:before {
+  content: '';
+  background-image: url("../img/button--green.svg");
+  background-size: cover;
+  display: block;
+  margin: -0.76923rem auto 1.15385rem auto;
+  width: 5.76923rem;
+  height: 3.84615rem;
+}
+@media only screen and (min-width: 768px) {
+  .Rules__window:before {
+    margin-top: -3.07692rem;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .Rules__window:before {
+    content: '';
+    background: url("../img/button--green.svg") center center;
+    background-size: cover;
+    margin: auto auto 1.15385rem auto;
+    width: 3.84615rem;
+    height: 2.88462rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .Rules__window:before {
+    width: 3.84615rem;
+    height: 3.84615rem;
+  }
+}
+.Rules__About {
+  width: 10vh;
+  height: 10vh;
+  background: url("../img/about-us.svg") no-repeat center center;
+  background-size: cover;
+  bottom: 0;
+}
+
+/* -------------------------------- 
+
+  About us pages
+
+-------------------------------- */
+.About a {
+  font-size: 0.76923rem;
+}
+.About a:after, .About a:before {
+  content: none;
+}
+@media only screen and (min-width: 1300px) {
+  .About a {
+    font-size: 0.69231rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .About a {
+    font-size: 0.84615rem;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .About p {
+    font-size: 0.69231rem;
+    padding-left: 1.92308rem;
+    padding-right: 1.92308rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .About p {
+    font-size: 0.92308rem;
+    line-height: 1.07692rem;
+  }
+}
+
+.AboutUs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 80vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 1.34615rem;
+}
+@media only screen and (min-width: 768px) {
+  .AboutUs {
+    width: 80vw;
+    height: 20vh;
+    margin-left: -0.76923rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .AboutUs {
+    height: 33vh;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .AboutUs {
+    width: 70vw;
+    height: 36vh;
+    margin-top: 1.92308rem;
+    margin-left: -5.76923rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .AboutUs {
+    width: 65vw;
+    height: 34vh;
+    margin-top: 1.92308rem;
+    margin-left: -5.76923rem;
+  }
+}
+.AboutUs .Leo,
+.AboutUs .Charles,
+.AboutUs .Robin,
+.AboutUs .Antoine {
+  width: 20vw;
+  height: 30vh;
+}
+@media only screen and (min-width: 1300px) {
+  .AboutUs .Leo,
+  .AboutUs .Charles,
+  .AboutUs .Robin,
+  .AboutUs .Antoine {
+    width: 17.5vw;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .AboutUs .Leo,
+  .AboutUs .Charles,
+  .AboutUs .Robin,
+  .AboutUs .Antoine {
+    width: 16.25vw;
+  }
+}
+.AboutUs .Leo img,
+.AboutUs .Charles img,
+.AboutUs .Robin img,
+.AboutUs .Antoine img {
+  width: 15vw;
+  height: 15vw;
+}
+.AboutUs .Leo img:hover,
+.AboutUs .Charles img:hover,
+.AboutUs .Robin img:hover,
+.AboutUs .Antoine img:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width: 1300px) {
+  .AboutUs .Leo img,
+  .AboutUs .Charles img,
+  .AboutUs .Robin img,
+  .AboutUs .Antoine img {
+    width: 12vw;
+    height: 12vw;
+  }
+}
+.AboutUs .Leo a,
+.AboutUs .Charles a,
+.AboutUs .Robin a,
+.AboutUs .Antoine a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20vw;
+  margin-top: 0.57692rem;
+  font-size: 0.76923rem;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.AboutUs .Leo a:after, .AboutUs .Leo a:before,
+.AboutUs .Charles a:after,
+.AboutUs .Charles a:before,
+.AboutUs .Robin a:after,
+.AboutUs .Robin a:before,
+.AboutUs .Antoine a:after,
+.AboutUs .Antoine a:before {
+  content: none;
+}
+@media only screen and (min-width: 1300px) {
+  .AboutUs .Leo a,
+  .AboutUs .Charles a,
+  .AboutUs .Robin a,
+  .AboutUs .Antoine a {
+    margin-left: -0.76923rem;
+  }
+  .AboutUs .Leo a:after, .AboutUs .Leo a:before,
+  .AboutUs .Charles a:after,
+  .AboutUs .Charles a:before,
+  .AboutUs .Robin a:after,
+  .AboutUs .Robin a:before,
+  .AboutUs .Antoine a:after,
+  .AboutUs .Antoine a:before {
+    content: none;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .AboutUs .Leo a,
+  .AboutUs .Charles a,
+  .AboutUs .Robin a,
+  .AboutUs .Antoine a {
+    font-size: 0.96154rem;
+    margin-left: -1.15385rem;
+  }
+  .AboutUs .Leo a:after, .AboutUs .Leo a:before,
+  .AboutUs .Charles a:after,
+  .AboutUs .Charles a:before,
+  .AboutUs .Robin a:after,
+  .AboutUs .Robin a:before,
+  .AboutUs .Antoine a:after,
+  .AboutUs .Antoine a:before {
+    content: none;
+  }
+}
+.AboutUs .Leo i,
+.AboutUs .Charles i,
+.AboutUs .Robin i,
+.AboutUs .Antoine i {
+  font-size: 0.69231rem;
+  color: grey;
+}
+@media only screen and (min-width: 1800px) {
+  .AboutUs .Leo i,
+  .AboutUs .Charles i,
+  .AboutUs .Robin i,
+  .AboutUs .Antoine i {
+    font-size: 0.76923rem;
+    text-align: center;
+  }
+}
+
+.About:after {
+  content: url("../img/zigzag-green.svg");
+}

@@ -1,0 +1,196 @@
+/* -------------------------------- 
+
+  Rules pages
+
+-------------------------------- */
+
+.Rules{
+    @include flex();
+    background: none;
+    position: relative;
+    
+    &__window{
+        width: 80vw;
+        min-height: 75vh;
+        
+        margin: auto;
+        padding: rem(20px);
+        position: absolute;
+        
+        text-align: center;
+        
+        top: 15vh;
+        left: 9vw;
+        
+        @include respond-to-portrait('medium-portrait'){
+            min-height: 50vh;
+            top: 20vh;
+            left: 9vw;
+        }
+        
+        @include respond-to('large'){
+            width: 50vw;
+            min-height: 75vh;
+            
+            top: 7vh;
+            left: 24vw;
+        }
+        
+        @include respond-to('huge'){
+            top: 15vh;
+        }
+        
+        span:first-of-type{
+            @include flex();
+            @include flex-direction(row);
+            margin-right: rem(30px);
+        }
+            
+        span:nth-child(4),
+        span:nth-child(5){
+            @include span-rules();
+        }
+        
+        h1{
+            font-size: rem(45px);
+            margin-bottom: rem(30px);
+            color: lighten($primary-color,12%);
+            
+            @include respond-to('large'){
+                font-size: rem(35px);
+            }
+            
+            @include respond-to('huge'){
+                font-size: rem(45px);                
+            }
+        }
+        
+        p{
+            padding-left: rem(80px); 
+            padding-right: rem(80px); 
+            
+            font-size: rem(20px);
+            line-height: rem(24px);
+            color: black;
+            
+            @include respond-to('large'){
+                padding-left: rem(160px); 
+                padding-right: rem(160px); 
+                font-size: rem(16px);
+            }  
+            
+            @include respond-to('huge'){
+                padding-left: rem(160px); 
+                padding-right: rem(160px);
+                font-size: rem(22px);
+            }
+        }
+        
+        p:nth-child(3){
+            margin-top: rem(30px);
+            color: $quaternary-color;
+                        
+            @include respond-to('large'){
+                font-size: rem(16px);
+            } 
+            
+            @include respond-to('huge'){
+                font-size: rem(20px);
+            }
+        }
+        
+        p:nth-child(5){
+            padding-left: rem(170px);
+            padding-right: rem(170px);
+            
+            &:after{
+                content: url('../img/zigzag-green.svg');
+                @include flex();
+                -webkit-justify-content: center;
+                justify-content: center;
+            }
+        }
+        
+        a{
+            font-family: 'Brandon Grotesque Bold';
+            font-size: rem(16px);
+            transition: all 0.3s ease;
+            
+            @include respond-to('medium'){
+                font-size: rem(13px);
+            } 
+            
+            @include respond-to('medium-portrait'){
+                font-size: rem(13px);
+            }
+            
+            &:hover{
+                color: $quaternary-color;
+                transition: all 0.3s ease;
+            }
+            
+            &:before{
+                @include padawan-logos(url('../img/Jedi.svg'));
+            }
+            
+            &:after{
+                @include padawan-logos(url('../img/Dark-Vador.svg'));
+            }
+        }
+        
+        button{
+            @include flex();
+            margin: auto;
+            margin-top: rem(20px);
+        
+            width: rem(100px);
+            height: rem(100px);
+            
+            background: url('../img/about-us.png')no-repeat center center;
+            background-size: 85%;
+            border: 2px solid $quadrary-color;
+            border-radius: 50px;
+            
+            @include respond-to('large'){
+                display: none;
+            }
+        }
+    } 
+    
+    &__window:before{
+        content: '';
+        background-image: url('../img/button--green.svg');
+        
+        background-size: cover;
+        display: block;
+        margin: rem(-20px) auto rem(30px) auto;
+        width: rem(150px);
+        height: rem(100px);
+        
+        @include respond-to('medium-portrait'){
+            margin-top: rem(-80px);
+        }
+        
+        @include respond-to('large'){
+            content: '';
+            background: url('../img/button--green.svg') center center;
+            background-size: cover;
+            margin: auto auto rem(30px) auto;
+            width: rem(100px);
+            height: rem(75px);
+        }
+        
+        @include respond-to('huge'){
+            width: rem(100px);
+            height: rem(100px);   
+        }
+    }
+    
+    &__About{
+        width: 10vh;
+        height: 10vh;
+        background: url('../img/about-us.svg') no-repeat center center;
+        background-size: cover;
+        bottom: 0;
+    }
+}

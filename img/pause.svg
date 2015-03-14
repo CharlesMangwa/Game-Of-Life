@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="pause" sketch:type="MSLayerGroup" fill="#614B8C">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="pause">
+                    <circle id="Oval" opacity="0.24" cx="30.29" cy="29.702" r="29.405"></circle>
+                    <g id="Group" transform="translate(24.000000, 18.000000)">
+                        <path d="M10.198,0 C9.095,0 8.202,1.14 8.202,2.545 L8.202,20.857 C8.202,22.263 9.095,23.402 10.198,23.402 C11.301,23.402 12.194,22.263 12.194,20.857 L12.194,2.545 C12.194,1.14 11.301,0 10.198,0 L10.198,0 L10.198,0 Z" id="Shape"></path>
+                        <path d="M0,2.545 L0,20.857 C0,22.263 0.895,23.402 1.996,23.402 C3.099,23.402 3.992,22.263 3.992,20.857 L3.992,2.545 C3.992,1.14 3.099,0 1.996,0 C0.895,0 0,1.14 0,2.545 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

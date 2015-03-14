@@ -1,0 +1,149 @@
+/* -------------------------------- 
+
+  Components
+
+-------------------------------- */
+
+@include establish-baseline();
+
+main{
+	@include flex();
+    font-family                            : 'Brandon Grotesque Regular';
+    width                                  : 100vw;
+    height                                 : 100vh;
+}
+
+h1{
+	font-family                            : 'Brandon Grotesque Bold';
+    font-size                              : rem(77.55px);
+    text-transform                         : uppercase;
+    color                                  : darken($primary-color, 25%);
+}
+
+p{
+    font-size                              : rem(22.59px);
+    line-height                            : rem(32.59px);
+    color                                  : white;
+    text-align                             : center; 
+}
+
+b{
+	color                                  : $secondary-color;
+}
+
+
+ul{
+    @include flex();
+            -webkit-justify-content        : center;
+            justify-content                : center;
+    margin                                 : auto;
+    
+    li{ 
+        a{
+            @include flex();
+            -webkit-justify-content        : center;
+            justify-content                : center;
+            -webkit-align-items            : center;
+            align-items                    : center;
+            
+            width                          : rem(141px);
+            height                         : rem(141px);
+            color                          : white;
+            
+            &:hover,
+            &:focus{
+                color                      : darken($primary-color, 15%);
+            }
+        }
+    }        
+}
+
+
+
+
+
+/* HOME */
+
+
+.home__button{
+    width                                  : rem(141px);
+    height                                 : rem(141px);
+    
+    margin-top                             : rem(68px); 
+    margin-left                            : rem(25px);
+    margin-right                           : rem(25px);
+    
+    border                                 : none;
+    border-radius                          : 50%;
+    
+	font-family                            : 'Brandon Grotesque Regular';
+    font-size                              : rem(23.15px);
+    
+    color                                  : white;
+    background-color                       : darken($primary-color, 15%);
+    
+    -webkit-transform: scale(1);
+    transform                              : scale(1);
+    transition                             : all 0.5s ease;
+    
+    &:hover, 
+    &:focus{
+        background-color                   : white;
+        color                              : darken($primary-color, 15%);
+        -webkit-transform                  : scale(1.10);
+        transform                          : scale(1.10);
+        transition                         : all 0.5s ease;
+    }
+    
+    &:active{
+       transform                           : scale(1.0); 
+    }
+
+    @include respond-to('large'){
+        margin-top                         : rem(57px);
+        font-size                          : rem(27.82px);
+    }
+
+    @include respond-to('huge'){
+        width                              : rem(165px);
+        height                             : rem(165px);
+        
+        margin-top                         : rem(74.79px);
+        
+        font-size                          : rem(28.16px);
+    }
+}
+
+
+
+
+
+/* STANDARD */
+
+
+.game__button{
+    width                                  : rem(58.81px);
+    height                                 : rem(58.81px);   
+    
+    border                                 : none;
+    border-radius                          : 50%;
+    
+    -webkit-transform: scale(1);
+    transform                              : scale(1);
+    transition                             : all 0.5s ease;
+    
+    &:hover, 
+    &:focus{
+        background-color                   : saturate(lighten($quadrary-color, 15%),20%);
+        -webkit-transform                  : scale(1.10);
+        transform                          : scale(1.10);
+        transition                         : all 0.5s ease;
+    }
+    
+    &:active{
+        background-color                   : saturate(lighten($quadrary-color, 15%),20%);
+        -webkit-transform                  : scale(0.95); 
+        transform                          : scale(0.95); 
+        transition                         : all 0.5s ease;
+    }
+}

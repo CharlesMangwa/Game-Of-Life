@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="play" sketch:type="MSLayerGroup" fill="#614B8C">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="play">
+                    <circle id="Oval" opacity="0.24" cx="32.202" cy="32.32" r="31.446"></circle>
+                    <path d="M45.152,32.406 C45.152,33.025 44.492,33.469 44.492,33.469 L27.464,44.433 C26.109,45.28 25,44.656 25,43.051 L25,21.762 C25,20.157 26.109,19.532 27.464,20.379 L44.492,31.345 C44.492,31.345 45.152,31.788 45.152,32.406 L45.152,32.406 L45.152,32.406 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

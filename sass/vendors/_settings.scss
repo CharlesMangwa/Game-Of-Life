@@ -1,0 +1,56 @@
+/* -------------------------------- 
+
+  Settings
+
+-------------------------------- */
+
+
+/* --
+
+  Colors
+
+-- */
+
+$primary-color    : #000000 ;
+
+
+
+
+
+/* --
+
+  Fonts
+
+-- */
+
+$fonts_settings : (
+    'font-size'   : 16px,
+    'line-height' : 23px
+);
+
+
+
+
+
+/* --
+
+  Breakpoints
+
+-- */
+
+$breakpoints : (
+    'large'   : 1300px,
+    'huge'    : 1800px,
+);
+
+
+
+
+
+/* --
+
+  Typo
+
+-- */
+
+$typo-debug : false;

@@ -1,0 +1,54 @@
+/* -------------------------------- 
+
+   Imports
+
+-------------------------------- */
+
+
+    @import "vendors/reset";
+    /* --
+
+      Settings
+
+    -- */
+
+    @import "vendors/settings";
+    @import "app/settings";
+
+
+
+    /* --
+
+      Vendors
+
+    -- */
+
+    @import "vendors/core";
+    @import "vendors/mixins";
+    @import "vendors/grid";
+
+
+
+    /* --
+
+      Base
+
+    -- */
+
+    @import "app/base/components";
+
+
+
+    /* --
+
+      Pages
+
+    -- */
+
+    @import "app/pages/home";
+    @import "app/pages/standard";
+    @import "app/pages/gameover";
+    @import "app/pages/record";
+    @import "app/pages/start1";
+    @import "app/pages/rules";
+    @import "app/pages/aboutus";

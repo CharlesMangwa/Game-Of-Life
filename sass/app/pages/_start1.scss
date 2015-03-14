@@ -1,0 +1,85 @@
+/* -------------------------------- 
+
+  Start 1 - Standar mode
+
+-------------------------------- */
+
+.Start1A{
+    @include flex();
+    background: none;
+    
+    .home{
+        margin: auto;
+        background: none;
+        -webkit-align-items: center;
+        
+        h1{
+            width: rem(445px);
+            
+            font-size: rem(43px);
+            line-height: rem(53px);
+            text-align: center;
+            
+            color: darken($primary-color,10%);
+            
+            &:after{
+                content: url('../img/zigzag-green.svg');
+                margin-top: rem(10px);
+                margin-bottom: rem(-30px);
+            }
+        }
+    }
+    
+    .home__button{
+        background-color: transparent;
+        a{
+            border: 2px solid lighten(grey,40%);
+            border-radius: 50%;
+            background-color: white;
+            color : darken($primary-color,10%);
+            font-size: 21px;
+            transition: all 0.5s ease;
+        }
+        
+        a:hover,
+        a:focus
+        {
+            border: 2px solid transparent;
+            background-color: $quaternary-color;
+            color: white;
+        }
+    }
+}
+
+.Start1B{
+    @include flex();
+    position: relative;
+    
+    canvas{
+        background: none;
+    }
+
+    .home{
+        position: absolute;
+        height: 60vh;
+        top : 23vh;
+        left: 27vw;
+        
+        @include respond-to-portrait('medium-portrait'){
+            left: 20vw;
+        }
+        
+        @include respond-to('large'){
+            top: 18vh;
+            left: 35vw;
+        } 
+        
+        @include respond-to('huge'){
+            top: 18vh;
+            left: 35vw; 
+            h1{
+                font-size: rem(50px);
+            }
+        }    
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Game of Life",
+  "version": "0.0.0",
+  "authors": [
+    "Léo LE BRAS <leo.lebrasf@gmail.com>"
+  ],
+  "main": "src/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "react-addons": "~0.1.2",
+    "backbone": "~1.1.2",
+    "routie": "~0.3.2"
+  }
+}

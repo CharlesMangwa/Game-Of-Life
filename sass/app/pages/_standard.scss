@@ -1,0 +1,158 @@
+/* -------------------------------- 
+
+  Standard
+
+-------------------------------- */
+.Standard{
+    @include flex();
+    @include flex-direction(column);
+    @include gradient($quaternary-color, #4059c1);
+    
+    width                                      : 100vw;
+    height                                     : 100vh;
+    
+    position                                   : relative;
+
+    &__continue{
+        width                                  : 10vh;
+        height                                 : 10vh;
+
+        border                                 : none;
+        background                             : url('../img/rocket.svg') no-repeat center center;
+        background-color                       : $secondary-color;
+        background-size                        : 70%;
+        
+        position                               : absolute;
+        right                                  : 0;
+        
+
+        @include greyscale(100%);
+        transition                             : all 0.5s ease;
+
+
+        &:hover, 
+        &:focus{
+            @include greyscale(0%);
+            transform                          : scale(1.05);
+            transition                         : all 0.5s ease;
+        }
+
+        &:active{
+           transform                           : scale(0.95); 
+        }
+    }
+    
+        &__info{
+            width                              : 7vh;
+            height                             : 7vh;
+            background                         : url('../img/i.svg') no-repeat center center;
+            bottom                             : 0;
+    }
+}
+
+canvas{
+    height                                     : 50vh;
+    
+    background                                 : url('../img/canvas.png') no-repeat 0 0;
+    background-size                            : cover;
+}
+
+.game{
+    @include flex();
+    @include flex-direction(column);
+    width                                      : 50vh;
+    height                                     : 40vh;
+    
+    margin                                     : auto;
+    
+    &__counter{
+        text-align                             : center;
+        padding                                : 0;
+        margin-top                             : rem(-80px);
+        
+                @include respond-to('large'){
+                    margin-top                  : rem(-70px);
+                }
+
+                @include respond-to('huge'){
+                    margin-bottom                : rem(47px);
+                }
+
+        h1{ 
+            font-size                          : rem(123.72px);
+            color                              : $primary-color;
+            @include flex();
+            @include flex-direction(column);
+            
+            &:before{
+                content                        : url(../img/zigzag--green.svg);
+                @include flex();
+                -webkit-justify-content        : center;
+                justify-content                : center;
+                margin-bottom: rem(-20px);
+            }
+        }
+        
+        p{ 
+            color                               : lighten($primary-color, 20%);
+            margin-top                          : rem(80px);
+            
+            &:after{
+                content                         : url(../img/zigzag--green.svg);
+                height                          : rem(12px);
+                @include flex();
+                -webkit-justify-content         : center;
+                justify-content                 : center;
+            }
+        }
+    }
+    
+    &__control{
+        margin-top                             : rem(50px);
+        text-align                             : center;
+    }
+    
+    &__button{
+        margin-left                            : rem(2.5px);
+        margin-right                           : rem(2.5px);
+        cursor: pointer;
+    }
+    
+    &__stop{
+        background                             : url('../img/stop.svg') no-repeat 0 0;
+        background-size                        : 100%;
+    }
+    
+    &__replay{
+        background                             : url('../img/refresh.svg') no-repeat 0 0;
+        background-size                        : 100%;
+    }
+    
+    &__previous{
+        background                             : url('../img/prev.svg') no-repeat 0 0;
+        background-size                        : 100%;
+    }
+    
+    &__play{
+        background                             : url('../img/pause.svg') no-repeat 0 0;
+        background-size                        : 100%;
+    }
+    
+    &__next{
+        background                             : url('../img/next.svg') no-repeat 0 0;
+        background-size                        : 100%;
+    }
+    
+    &__go{
+        margin-top                             : rem(280px);
+        
+        @include respond-to('large'){
+            margin-top                         : rem(360px);
+        }  
+        
+        @include respond-to('huge'){
+            margin-top                         : rem(400px);
+        }
+    }
+}
+

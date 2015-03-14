@@ -1,0 +1,150 @@
+/* -------------------------------- 
+
+  About us pages
+
+-------------------------------- */
+.About{
+    a{
+        font-size: rem(20px);
+        &:after,
+        &:before
+        {
+            content: none;
+        }
+        
+        @include respond-to('large'){
+            font-size: rem(18px);
+        }
+        
+        @include respond-to('huge'){
+            font-size: rem(22px);
+        }
+    }
+    
+    
+    p{
+        @include respond-to('large'){
+            font-size: rem(18px);
+            padding-left: rem(50px);
+            padding-right: rem(50px);
+        }
+        
+        @include respond-to('huge'){
+            font-size: rem(24px);
+            line-height: rem(28px);
+        }
+    }
+}
+
+.AboutUs{
+    @include flex();
+    @include flex-direction(row);
+    width: 80vw;
+    height: 30vh;
+    
+    margin: auto;
+    margin-top: rem(35px);
+    
+    @include respond-to('medium-portrait'){
+        width: 80vw;    
+        height: 20vh;
+        margin-left: rem(-20px);
+    }
+    
+    @include respond-to('medium'){
+        height: 33vh;
+    }
+    
+    @include respond-to('large'){
+        width: 70vw;
+        height: 36vh;
+        margin-top: rem(50px);
+        margin-left: rem(-150px);
+    }
+    
+    @include respond-to('huge'){
+        width: 65vw;
+        height: 34vh;
+        margin-top: rem(50px);
+        margin-left: rem(-150px);
+    }
+    
+    .Leo,
+    .Charles,
+    .Robin,
+    .Antoine{
+        width: 20vw;
+        height: 30vh;
+        
+         @include respond-to('large'){
+            width: 17.5vw;
+        }
+        
+         @include respond-to('huge'){
+            width: 16.25vw;
+        }
+        
+        img{
+            width: 15vw;
+            height: 15vw;
+            
+            &:hover{cursor: pointer;}
+            
+            @include respond-to('large'){
+                width: 12vw;
+                height: 12vw;
+            }
+        }
+        
+        a{
+            @include flex();
+            width: 20vw;
+            margin-top: rem(15px);
+            
+            font-size: rem(20px);
+            justify-content: center;
+            -webkit-justify-content: center;
+            
+            &:after,
+            &:before
+            {
+                content: none;
+            }
+            
+            @include respond-to('large'){
+                &:after,
+                &:before
+                {
+                    content: none;
+                }
+                margin-left: rem(-20px);
+            }  
+            
+            @include respond-to('huge'){
+                font-size: rem(25px);
+                
+                &:after,
+                &:before
+                {
+                    content: none;
+                }
+                margin-left: rem(-30px);
+            }
+            
+        }
+        
+        i{
+            font-size: rem(18px);
+            color: grey;
+            
+            @include respond-to('huge'){
+                font-size: rem(20px);
+                text-align: center;
+            }
+        }
+    }
+}
+
+.About:after{
+        content: url('../img/zigzag-green.svg');
+    }

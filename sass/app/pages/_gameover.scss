@@ -1,0 +1,103 @@
+/* -------------------------------- 
+
+  Game over
+
+-------------------------------- */
+
+.GameOver{
+    position                                   : relative;
+    
+    canvas{
+    height                                     : 100vh;
+    
+    background                                 : url('../img/canvas.png') no-repeat 0 0;
+    background-size                            : cover;
+}
+    
+    &__window{
+        width: 50vh;
+        height: 50vh;
+        
+        position: absolute;
+        top: 25vh;
+        left: 42.5vh;
+        
+        @include respond-to-portrait('medium-portrait'){
+            top : 27vh;
+            left: 15vw;
+        }
+        
+        @include respond-to('large'){
+            top : 25vh;
+            left: 17.5vw; 
+            width: 60vw;
+        }
+        
+        h1{
+            font-size: rem(50px);
+            text-align: center;
+            color: $primary-color;
+            
+            @include respond-to('large'){
+                font-size: rem(63.55px); 
+            }
+        }
+        
+        .game__counter{
+            h1{                                    /* Augmenter la valeur du margin-top */
+                &:after{
+                    content                        : url(../img/zigzag--green.svg);
+                    text-align                     : center;
+                    display                        : block;
+
+                    margin-top                     : rem(-40px); 
+                    margin-bottom                  : rem(40px); 
+
+                    @include respond-to('large'){
+                        margin-bottom              : rem(35px);
+                    }
+
+                    @include respond-to('huge'){
+                        margin-bottom              : rem(47px);
+                    }
+
+                }
+            }
+        }
+    }   
+}
+
+.game{
+        &__counter h1{
+            margin-top                         : rem(50px);
+            margin-bottom                      : rem(-75px);
+            font-size                          : rem(95px);
+            
+            @include respond-to('large'){
+                margin-top: rem(30px);
+            }
+            
+            &:before{
+                margin-bottom                  : rem(0px);
+            } 
+        }
+    
+        &__start{
+            background                             : url('../img/play.svg') no-repeat 0 0;
+            background-size                        : 100%;
+        }
+
+        &__twitter{
+            background                             : url('../img/twitter.svg') no-repeat 0 0;
+            background-size                        : 100%;
+        }
+        &__facebook{
+            background                             : url('../img/facebook.svg') no-repeat 0 0;
+            background-size                        : 100%;
+        }
+        &__instagram{
+            background                             : url('../img/instagram.svg') no-repeat 0 0;
+            background-size                        : 100%;
+        }
+}
+ 
